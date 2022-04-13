@@ -1,4 +1,5 @@
 # <b>2022 통계데이터 인공지능 활용대회</b>
+![poster](./img/title_thumbnail.jpg)
 
 ## <b>“자연어 기반 인공지능 산업분류 자동화”</b>
 
@@ -28,31 +29,31 @@ Python 또는 R 언어로 자연어 텍스트 마이닝 및 인공지능 분류 
 
 ### <b>작업 내역</b>
 + 22-03-22
-1. preprocessing 과정에서 pykospacing 사용 띄어쓰기 적용 -> 폐기 (과도한 시간 소요)
-1. mecab user dictionary 생성
-1. visual EDA
-1. 한국표준산업분류 dictionary 생성
-1. LSTM 모델 적용 학습 및 평가 수행
+  1. preprocessing 과정에서 pykospacing 사용 띄어쓰기 적용 -> 폐기 (과도한 시간 소요)
+  1. mecab user dictionary 생성
+  1. visual EDA
+  1. 한국표준산업분류 dictionary 생성
+  1. LSTM 모델 적용 학습 및 평가 수행
 
 + 22-03-27
-1. okt 라이브러리를 활용 토크나이징
+  1. okt 라이브러리를 활용 토크나이징
 
 + 22-03-28
-1. okt 토큰화된 데이터 LSTM 사용 학습 및 결과 분석 -> 폐기
+  1. okt 토큰화된 데이터 LSTM 사용 학습 및 결과 분석 -> 폐기
 
 + 22-04-05
-1. Decision Tree Classifier 시도 -> 폐기 (정확도 낮음)
+  1. Decision Tree Classifier 시도 -> 폐기 (정확도 낮음)
 
 + 22-04-10
-1. 대분류 -> 중분류 -> 소분류 예측 결과 파이프라이닝 개선 -> 폐기 (정확도 낮음)
+  1. 대분류 -> 중분류 -> 소분류 예측 결과 파이프라이닝 개선 -> 폐기 (정확도 낮음)
 
 + 22-04-11
-1. preprocessing 과정에서 spellchecker 적용 -> 폐기 (과도한 시간 소요)
+  1. preprocessing 과정에서 spellchecker 적용 -> 폐기 (과도한 시간 소요)
 
 + 22-04-12
-1. colab GPU 사용 koBERT 모델 학습 -> 폐기 (사양 부족으로 인한 과도한 시간 소요 및 정확도에 별 차이 없음)
+  1. colab GPU 사용 koBERT 모델 학습 -> 폐기 (사양 부족으로 인한 과도한 시간 소요 및 정확도에 별 차이 없음)
 
 + 22-04-13
-1. mecab user dictionary 업데이트
-2. 실행 로그 기록
-3. 제출용 파일 생성
+  1. mecab user dictionary 업데이트
+  2. 실행 로그 기록
+  3. 제출용 파일 생성
